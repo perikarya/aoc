@@ -18,7 +18,6 @@ matches = [[moves[i] for i in match] for match in matches]
 #
 
 def find_outcome(match):
-
     if match[0] == "rock":
         if match[1] == "rock":
             result = "draw"
