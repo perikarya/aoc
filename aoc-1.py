@@ -34,7 +34,7 @@ for elf_id, snack_set in elves.items():
 top_elf = max(totals.items(), key = lambda x: x[1])
 print(top_elf)
 
-# find top three elves carrying the most calories,  number of calories carried by those elves
+# find top three elves carrying the most calories, and number of calories carried by those elves
 
 top_three_elves = sorted(totals.items(), key = lambda x: x[1], reverse = True)[:3]
 sum_of_top_three = top_three_elves[0][1] + top_three_elves[1][1] + top_three_elves[2][1]
