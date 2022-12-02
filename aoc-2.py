@@ -3,7 +3,7 @@
 with open('aoc-2.txt') as t:
     matches = t.readlines()
 
-matches = [line.strip().split() for line in matches]
+matches = [match.strip().split() for match in matches]
 
 # set up mappings
 
@@ -13,7 +13,7 @@ points = {"rock": 1, "paper": 2, "scissors": 3, "win": 6, "loss": 0, "draw": 3}
 
 # map matches
 
-matches = [[moves[i] for i in line] for line in matches]
+matches = [[moves[i] for i in match] for match in matches]
 
 #
 
@@ -48,7 +48,7 @@ for match in matches:
 
 # map to points
 
-matches = [[points[i] for i in line] for line in matches]
+matches = [[points[i] for i in match] for match in matches]
 
 # score my plays
 
