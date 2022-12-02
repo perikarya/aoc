@@ -15,7 +15,7 @@ points = {"rock": 1, "paper": 2, "scissors": 3, "win": 6, "loss": 0, "draw": 3}
 
 matches = [[moves[i] for i in match] for match in matches]
 
-# for the second part, we are reversing the mappings
+# for the second part, we are reversing the outcome finder to decide the move based on the outcome
 
 def find_outcome(match):
 
