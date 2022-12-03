@@ -33,7 +33,7 @@ items_in_both = [priorities[i] for i in items_in_both]
 sum_of_priorities = sum(items_in_both)
 print(sum_of_priorities)
 
-# find common item in each set of three elves' rucksacks
+# find common item (badge) in each set of three elves' rucksacks
 
 sets_of_three = list(zip(*[iter(rucksacks)]*3))
 
