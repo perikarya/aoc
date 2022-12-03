@@ -30,8 +30,7 @@ for position, items in enumerate(first_compartment):
 
 items_in_both = [priorities[i] for i in items_in_both]
 
-sum_of_priorities = sum(items_in_both)
-print(sum_of_priorities)
+print(sum(items_in_both))
 
 # find common item (badge) in each set of three elves' rucksacks
 
@@ -45,5 +44,4 @@ for set_of_three in sets_of_three:
 
 items_in_all = [priorities[i] for i in items_in_all]
 
-sum_of_badge_priorities = sum(items_in_all)
-print(sum_of_badge_priorities)
+print(sum(items_in_all))
